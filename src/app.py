@@ -116,7 +116,14 @@ with st.sidebar:
             )
             st.session_state.db = db
             st.success("Connected to database!")
-    
+
+    st.write("")
+    st.write("")
+    st.write("")
+    st.write("")
+    st.write("Made with ❤️ by Athang")
+    st.write("[GitHub](https://github.com/athang12) | [Portfolio](https://athang-portfolio.netlify.app/) | [LinkedIn](https://www.linkedin.com/in/athang-yende-461a00224/)")
+    st.write("&copy; 2024 My Website. All rights reserved.")
 for message in st.session_state.chat_history:
     if isinstance(message, AIMessage):
         with st.chat_message("AI"):
