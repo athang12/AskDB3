@@ -97,7 +97,7 @@ st.title("Ask Database : Database Q&A❔")
 
 with st.sidebar:
     st.subheader("Settings")
-    st.write("This is a simple chat application using MySQL. Connect to the database and start chatting.")
+    st.write("Connect to the database and start chatting.")
     
     st.text_input("Host", value="localhost", key="Host")
     st.text_input("Port", value="3306", key="Port")
@@ -117,9 +117,6 @@ with st.sidebar:
             st.session_state.db = db
             st.success("Connected to database!")
 
-    st.write("")
-    st.write("")
-    st.write("")
     st.write("")
     st.write("Made with ❤️ by Athang")
     st.write("[GitHub](https://github.com/athang12) | [Portfolio](https://athang-portfolio.netlify.app/) | [LinkedIn](https://www.linkedin.com/in/athang-yende-461a00224/)")
