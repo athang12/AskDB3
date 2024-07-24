@@ -1,4 +1,4 @@
-#Ask Database
+# Ask Database
 
 ## MySQL Python Chatbot with GPT-4 and Mistral A
 
